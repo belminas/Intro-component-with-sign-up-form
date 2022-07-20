@@ -13,7 +13,7 @@ body{
     margin-top: 10%;
     margin-inline-start: 10%;
     margin-inline-end: 10%;
-    background-image: url("images/bg-intro-desktop.png");
+    background-image: url("bg-intro-desktop.png");
     background-color: var(--Red);
 }
 .big-text{
