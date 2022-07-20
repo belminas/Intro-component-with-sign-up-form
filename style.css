@@ -1,0 +1,77 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue: hsl(248, 32%, 49%);
+    --Dark-Blue: hsl(249, 10%, 26%) ;
+    --Grayish-Blue: hsl(246, 25%, 77%);
+}
+body{
+    display: grid;
+    place-items: start center;
+    margin-top: 10%;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: var(--Red);
+}
+.big-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    margin-top: 40%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    line-height: 1.2;
+}
+.small-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:16px ;
+    margin-right: 5%;
+    color: white;
+}
+.lbl{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:14px ;
+    margin-left: 5%;
+}
+.btn{
+    background-color: var(--Green);
+    color: white;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:16px ;
+}
+#cardBody{
+    background-color: var(--Blue);
+    height: 40px; 
+}
+#span1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:16px ;
+    color: white;
+}
+#span2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:16px ;
+    color:var(--Grayish-Blue);
+}
+#span3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:10px ;
+    color: var(--Grayish-Blue);
+}
+#span4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:10px ;
+    color: var(--Red);
+}
