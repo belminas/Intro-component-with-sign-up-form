@@ -35,7 +35,7 @@ function check(event){
                 but understanding how developers think is invaluable.</p>
             </div>
             <div className="col">
-            <div className="card mb-3 rounded-4">
+            <div className="card mb-3 rounded-4" style={{width:"400px"}}>
                 <div id="cardBody" className="card-body rounded-4">
                     <p className="card-title"><span id="span1">Try it free 7 days</span><span id="span2"> then $20/mo. thereafter</span></p>
                 </div>
